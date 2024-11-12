@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4F0EA;
+    color: #798252;
+    color: #331f19;
+    font-family: "Cabin", sans-serif;
+    font-weight: ;
+}
+
+header{
+    padding: 2rem;
+    background-color: #2a551f;
+    text-align: center;
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section{
+    display: flex;
+    flex-direction:column;
+    gap: 1rem;
+}
+
+h2{
+    cursor: pointer;
+    color: #331f19;
+    font-size: 1.5rem;
+}
+
+input[type ="radio"], input[type="checkbox"]{
+    accent-color: #798816 ;
+}
+
+input[type ="text"]{
+    width: 15%;
+    padding:0.6rem;
+    border: 2px solid#798816
+}
+
+img{
+    width:15rem ;
+    border-radius: 5px;
+}
+ table{
+    width: 100%;
+    border-collapse: collapse;
+
+ }
+
+ th{
+    background-color: #CCD595;
+    color: #331f19;
+    padding: 1rem;
+ }
+
+ td{
+    color:#331f19;
+    padding: 1rem;
+    text-align: center;
+ }
+
+tfoot td{
+    background-color: #331f19;
+    color:#F4F0EA;
+}
+ 
+details {
+    background-color: #CCD595;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+
+summary{
+    margin: 1.5;
+    cursor: pointer;
+    color:#331f19
+}
+
+ol{
+    margin-left: 1.5rem;
+}
+ol li{
+    padding: 0.2rem;
+}
+
+fieldset{
+    border: 2px solid #CCD595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend{
+    padding: 0 0.5rem;
+    color: #331f19
+}
+
+textarea{
+    outline; none;
+    border-radius: 5px;
+    border: 2px solid #CCD595;
+    background-color: transparent;
+}
+
+button{
+    background-color: #CCD595;
+    border: none;
+    padding: 0.8rem;
+    color: #331f19;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    background-color: #331f19;
+    padding:2rem;
+    text-align: center;
+}
+
+.paragrafo-footer1{
+    color: #F4F0EA;
+}
+.paragrafo-footer2{
+    color: #F4F0EA;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #CCD595;
+}
+
+

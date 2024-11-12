@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Quiz para Botânico</title>
+    <meta name="description" content="Um quiz interativo pra testa conhecimento em botânica">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--titlulo de entrodução-->
+<body>
+    <header> 
+        <h1>Quiz interativo para Botânico</h1>
+        <p>teste seus conhecimento</p>
+    </header>
+    <!--introdução-->
+    <main>
+        <!--introducão-->
+        <section>
+            <h2>Sobre esse quiz</h2>
+            <p>"A <strong><abbr title="termo grego botané, significa,planta. ">botânica</abbr></strong> é importante
+                para a compreensão da <strong> <abbr
+                        title="Variedade de vida  no planeta.">biodiversidade</abbr></strong></p>
+            <p> dos <strong><abbr title="Conjunto composto por seres vivos e o ambiente">ecossistemas</abbr></strong>, e
+                tem aplicações práticas em áreas como: </p>
+            <p><strong><abbr
+                        title="Estudo de substçância quimica sobre a função dos sistema biológico">farmacologia</abbr></strong>
+                e <strong>conservação ambiental</strong>.
+            <p><i><strong><abbr title="termo grego botané, significa,planta. ">Botânica</abbr> ou <abbr
+                            title="Bio significa vida, logia significa estudo">Biologia</abbr> Vegetal</strong></i> é o
+                ramo da ciência que estuda organismos</p>sao eles fotossintetizantes, aqueles que produzem seu próprio
+            alimento por meio da fotossíntese,
+            <p>como as <strong><abbr title="abreviatura: bot, que significa Botânica.">plantas</abbr></strong>,
+                <strong><abbr title="Concernente, ao Reino Protista">algas</abbr></strong> e algumas <strong><abbr
+                        title="Latim(bacterion),Significa,Cana,Bastão,">bactérias</abbr></strong>."
+            </p>
+            <p>Divirta-se, testando seus conhecimentos.</p>
+        </section>
+        <!--perguntas 1:-->
+        <section>
+            <h2>Pergunta 1: Qual dessas plantas são capsicum</h2>
+            <form>
+                <input type="radio" valie="Tomate" id="p1a" name="pergunta 1">
+                <label for="p1a">Tomate</label><br>
+
+                <input type="radio" valie="Bromélia" id="p1b" name="pergunta 1">
+                <label for="p1b">Bromélia</label><br>
+
+                <input type="radio" valie="Pimenta" id="p1c" name="pergunta 1">
+                <label for="p1c">Pimenta</label><br>
+
+                <input type="radio" valie="Alho" id="p1d" name="pergunta 1">
+                <label for="p1d">Alho</label><br>
+
+                <input type="radio" valie="Abóbora" id="p1e" name="pergunta 1">
+                <label for="p1e">Abóbora</label><br>
+                <!--pergunta 2: texto-->
+                <section>
+                    <h2>Pergunta 2: Responda a pergunta, algas são ou não "plantas"? justifique sua
+                        resposta.</h2>
+                    <form>
+                        <input type="text" id="p2" name="Pergunta 2" 
+                        placeholder="Digite aque sua resposta">
+                        <input type="text" id="p2" name="Pergunta 2" 
+                        placeholder="Justifique aque sua resposta">
+                    </form>
+
+                </section>
+
+            </form>
+
+        </section>
+        <!--pergiunta 3-->
+        <section>
+            <h2>Pergunta 3: Escreva um exemplo de plata angiosperma. </h2>
+            <form>
+                <input type="text" id="p3" name="Pergunta 3" placeholder="Escreva aque o exmplo">
+                <input type="text" id="p3" name="Pergunta 3" placeholder="Justifique o exemplo">
+            </form>
+        </section>
+        <!--Pergunta 4:-->
+        <section>
+            <h2>Pergunta 4: Escreva um exemplo de planta gimnospermas.</h2>
+            <form>
+                <input type="text" id="p4" name="Pergunta4" placeholder="Esrcreva aque o exemplo">
+                <input type="text" id="p4" name="Pergunta4" placeholder="Justifique o exemplo">
+            </form>
+        </section>
+        <!---Pergunta 5:-->
+        <section>
+            <h2>Pergunta 5: Qual dos frutos a baixo são pertencentes a planta do gênero moráceae. </h2>
+            <input type="checkbox" id="p5" name="Pergunta5" value="Jaca">
+            <label for="p5">Jaca</label>
+
+            <input type="checkbox" id="p5" name="Pergunta5" value="Maracujá">
+            <label for="p5">Maracujá</label>
+
+            <input type="checkbox" id="p5" name="Pergunta5" value="Goiaba">
+            <label for="p5">Goaba</label>
+
+            <input type="checkbox" id="p5" name="Pergunta5" value="Figo">
+            <label for="p5">Figo</label>
+
+        </section>
+        <!--Pergunta 6: uplod de arquivo-->
+        <section>
+            <h2>Pergunta 6: faça o upload da imagem de um fruto ou planta do gênero Passiflora.</h2>
+            <form>
+                <input type="file" id="p6" name="Pergunta6">
+            </form>
+        </section>
+        <!--Pergunta 7: -->
+        <section>
+            <h2>Pergunta 7: Selecione o gênero da planta que defini a espécie, Acerola.</h2>
+            <form>
+                <select name="Pergunta7" id="p7">
+                    <option value="vitis">Vitis</option>
+                    <option value="persea">Persea</option>
+                    <option value="ananás">Ananás</option>
+                    <option value="malpighia">Malpighia</option>
+
+                </select>
+            </form>
+
+        </section>
+        <!--Pergunta 8:imagem-->
+        <section>
+            <h2>Pergunta 8: Qual gênero define o fruto da planta abaixo na emagem.</h2>
+            <figure>
+                <img src="./assets/cajueiro.jpg" alt="imagem de reconhecimento"><br>
+                <figcaption>Figura 1: imagem de cajueiro</figcaption>
+            </figure>
+            <input type="text" id="p8" name="Pergunta8" placeholder="Digite sua respota">
+
+        </section>
+        <!--tabela de pontuação-->
+        <section>
+            <h2>Tabela de Pontuação</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Não desista! Cada tentativa é uma oportunidade de você aprender.</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>3-4</td>
+                        <td>Você ainda precisa melhorar, que tal estudar um pouco mais sobre o assunto.</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>4-5</td>
+                        <td>Você esta melhorando, que tal tentar uma outra vez?.</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>5-6</td>
+                        <td>Nossa você esta evoluido bastante.</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>6-7</td>
+                        <td>Muito bom você esta se esforçando.</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>7-8</td>
+                        <td>Estamos de olho no seu desempenho isso e maravilhoso.</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>8-9</td>
+                        <td>Perfeito! você está muito bem informando sobre o assunto.</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>9-10</td>
+                        <td>Parabéns por ter dado seu maximo.</td>
+
+                    </tr>
+                
+                <tfood>
+                    <tr>
+                        <td colspan="2">A experiência foi muito boa.</td>
+                    </tr>
+                </tfood>
+            </table>
+        </section>
+        <!--lista de respostas do Quiz-->
+        <section>
+            <h2></h2>
+            <details>
+                <summary>Clique pra ver alguma das respostado do Quiz.</summary>
+                <ol>
+                    <li>P1: Pimenta</li>
+                    <li>P2: NÃO</li>
+                    <li>P5: Jaca,Figo</li>
+                    <li>P7: Malpighia</li>
+                    <li>P8: Anacardium</li>
+                </ol>
+            </details>
+        </section>
+        <!--formulario de feedback-- nas ultima linhas esta um comando pra evia pra outra linguagem utilisada a objeto-->
+        <sectio>
+            <h2>Nos dê o seu feedback </h2>
+            <form>
+                <fieldset>
+                    <legend>Informaçôes de contato</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name"><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+
+                    <label for="comentarios">Comentários:</label><br>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="50"
+                        placeholder="Digite aque seu comentário"></textarea><br>
+                    <button onclick="alert('FEEDBACK ENVIADO')">Envie o feedback</button>
+
+                </fieldset>
+            </form>
+            </section>
+
+
+    </main>
+    <!--rodape e ancorar pra outros quizzes-->
+    <footer>
+        <p class="paragrafo-footer1">&copy Quiz de Botânica.Todos os direitos reservado</p>
+        <p class="paragrafo-footer2">Para conhecer outros quizzes <a href="https://google.com" target="_blank">clique aqui</a></p>
+    </footer>
+</body>
+
+</html>
